@@ -2,6 +2,8 @@
 
 This project demonstrates a basic implementation of a natural language to SQL query translator using Google's Gemini API and Streamlit for the frontend. 
 
+**Inspiration:**  This project was inspired by the excellent tutorial by Krish Naik on YouTube. You can find the original video here: https://youtu.be/wFdFLWc-W4k?si=N6S4649ISvvwAeyJ
+
 **Note:** This is a work in progress and currently has limitations in handling complex databases and queries. 
 
 ## Features
