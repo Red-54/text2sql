@@ -2,8 +2,6 @@
 
 This project demonstrates a basic implementation of a natural language to SQL query translator using Google's Gemini API and Streamlit for the frontend. 
 
-**Inspiration:**  This project was inspired by the excellent tutorial by Krish Naik on YouTube. You can find the original video here: https://youtu.be/wFdFLWc-W4k?si=N6S4649ISvvwAeyJ
-
 **Note:** This is a work in progress and currently has limitations in handling complex databases and queries. 
 
 ## Features
@@ -71,17 +69,21 @@ This project demonstrates a basic implementation of a natural language to SQL qu
 - Columns: `NAME`, `CLASS`, `SECTION`, `MARKS`
 
 **Question:** 
-"Tell me all the students studying in Data Science class?"
+"Find the student which has 86 marks "
 
 **Output:**
 
 - **Generated SQL:** 
   ```sql
-  SELECT * FROM STUDENT where CLASS="Data Science"
+  SELECT * FROM STUDENT WHERE MARKS=86;
   ```
 
 - **Results:** 
-  (The data retrieved from the `student.db` database will be shown).
+ ![image](https://github.com/user-attachments/assets/69ab7632-b732-4e60-ac6d-40dc4c9ecf9b)
+
+
+
+**Inspiration:**  This project was inspired by the excellent tutorial by Krish Naik on YouTube. You can find the original video here: https://youtu.be/wFdFLWc-W4k?si=N6S4649ISvvwAeyJ
 
 ## Contributing
 
