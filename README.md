@@ -52,7 +52,7 @@ This project demonstrates a basic implementation of a natural language to SQL qu
 
 5. **Run the Streamlit App:**
    ```bash
-   streamlit run main.py 
+   streamlit run app.py 
    ```
 
 ## Usage
